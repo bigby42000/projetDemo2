@@ -1,0 +1,15 @@
+
+spring:
+  application:
+    name: Demo Spring Activ
+  datasource:
+    url: jdbc:postgresql://localhost:5432/your_database
+    username: your_username
+    password: your_password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
